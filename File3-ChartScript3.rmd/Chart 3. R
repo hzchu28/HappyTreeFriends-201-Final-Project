@@ -1,1 +1,45 @@
+library(ggplot2)
+library(stringr)
+library(dplyr)
+reviews_df <- read.csv("dataset.csv")
 
+name <- reviews_df$app_name
+score <- reviews_df$review_score
+
+game_score <- data.frame(name, score)
+
+uniq_game <- unique(game_score$name)
+
+percentage_of_1 <- function(gname){
+  element <- filter(game_score, name == gname)
+  glength <- nrow(element)
+  one <- filter(element, score == 1)
+  num_1 <- nrow(one)
+  per_1 <- num_1 / glength
+  return(per_1)
+}
+
+percentage_of_0 <- function(gname){
+  element <- filter(game_score, name == gname)
+  glength <- nrow(element)
+  zero <- filter(element, score == 0)
+  num_0 <- nrow(zero)
+  per_0 <- num_0 / glength
+  return(per_0)
+}
+
+percentage_of_neg_one <- function(gname){
+  element <- filter(game_score, name == gname)
+  glength <- nrow(element)
+  neg_one <- filter(element, score == -1)
+  num_neg_one <- nrow(neg_one)
+  per_neg_one <- num_neg_one / glength
+  return(per_neg_one)
+}
+
+p1 <- sapply(uniq_game, percentage_of_1)
+p0 <- sapply(uniq_game, percentage_of_0)
+p_neg_one <- sapply(uniq_game, percentage_of_neg_one)
+
+p1_bar <- barplot(p1, xlab = 'Name', ylab = 'Score', col = 'blue')
+p_neg_one_bar <- barplot(p_neg_one, xlab = 'Name', ylab = 'Score', col = 'blue')
