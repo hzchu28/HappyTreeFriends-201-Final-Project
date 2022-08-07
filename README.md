@@ -31,7 +31,7 @@ Topic: Steam Gaming Platform Data Analysis
 
 - Q5: How popular is the game now and how will it be in the future?
 
-- Q6: What is the most support-need aspect of the game?
+- Q6: Do players recommend this game?
 
 
 
@@ -99,11 +99,11 @@ _**DATA THREE**_
 
 **#3 How many observations (rows) are in your data?**
 
-- 
+- 6417106
 
 **#4 How many features (columns) are in your data?**
 
-- 
+- 2
 
 **#5 What questions (from above) can be answered using the data in this dataset?**
 
