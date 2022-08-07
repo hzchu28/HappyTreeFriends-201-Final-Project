@@ -41,6 +41,5 @@ p1 <- sapply(uniq_game, percentage_of_1)
 p0 <- sapply(uniq_game, percentage_of_0)
 p_neg_one <- sapply(uniq_game, percentage_of_neg_one)
 
-barplot(p1, xlab = 'Name', ylab = 'Score', col = 'blue')
-barplot(p_neg_one, xlab = 'Name', ylab = 'Score', col = 'blue')
-barplot(p0, xlab = 'Name', ylab = 'Score', col = 'blue')
+p1_bar <- barplot(p1, xlab = 'Name', ylab = 'Score', col = 'blue')
+p_neg_one_bar <- barplot(p_neg_one, xlab = 'Name', ylab = 'Score', col = 'blue')
