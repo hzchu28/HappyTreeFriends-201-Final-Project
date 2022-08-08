@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![Chart1.DisvsPos](Data1Char1.jpeg)
 
-![Chart1.DisvsPos](Data1Chart2.jpeg)
+![Chart2.YearvsDis](Data1Chart2.jpeg)
 
 ## Introduction
 
