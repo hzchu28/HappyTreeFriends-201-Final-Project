@@ -1,0 +1,37 @@
+---
+title: "File3-ChartScript1.rmd"
+output: pdf_document
+date: "2022-08-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+The charts are line plots that based on the database "steam_db.csv". 
+
+The first chart is "Discount vs. Positive Feedback Rate", with an x-axis of "Discount percentage" (<10%, 10%-20%, 30%-40%, ..., 90%-100%), and a y-axis of "Positive Feedback Rate (%)" (82-87). The data of y is calculated by the average rate of positive feedback of the games that holds given interval of discount rate. 
+
+The second chart is a filled line plots called "Average, Max, and Min Discount in Release Year", with an x-axis of "Years" (2002-2020), and a y-axis of "Discount Percentage (%)" (10%-90%). The line represents the average, the top of the filled area is the max, and the bottom of the filled area is the min. The data of y is summarised in r using "group_by" function.
+
+## Question
+
+The questions solved by charts: 
+
+1. Is there a relationship between the discount rate and the positive feedback rate?
+
+2. Is there a relationship between the discount rate and the game release date?
+
+## Analysis
+
+From the first chart, we can see a trend that games which have discounts less than 30% tend to get positive feedback higher than 85% while games with discounts greater than 30% tend to get less than 85% positive feedback. From the second chart, we can see a negative relationship between discount rate and release years.
+
+## Conclusion
+
+With the graphs we clearly summarized the database, knowing that there are relationship between the discount rate and the positive feedback rate, and relationship between the discount rate and the game release date. 
+
+Responding to our purpose analyzing the topic of the field, which is "We would like to predict the future game number/sales trend by analyzing the relationship between user's game time, game user numbers, game users' feedback, and the discounted price of games on Steam platform", the first chart provide evidence that games that can get relatively high positive feedback (>=85%) are mostly likely to have discount less than 30%. 
+
+The second chart, in a different point of view, showing that the discount rate decreases with more recent release years, helps us predicting that games released several years ago tend to be more likely to have higher discount than games released recently. 
