@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ![Chart1_score_value_1](Data3chart for score value 1.png)
-![Chart2_score_value_-1] (Data3chart for score value -1.png)
+![Chart2_score_value_neg_one] (Data3chart for score value -1.png)
 
 ## Introduction
 
