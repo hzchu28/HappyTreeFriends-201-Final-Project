@@ -75,11 +75,11 @@ _**DATA TWO**_
 
 **#3 How many observations (rows) are in your data?**
 
-- 
+- 200
 
 **#4 How many features (columns) are in your data?**
 
-- 
+- 4
 
 **#5 What questions (from above) can be answered using the data in this dataset?**
 
