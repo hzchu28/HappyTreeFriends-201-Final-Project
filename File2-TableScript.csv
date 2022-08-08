@@ -1,0 +1,4 @@
+Data,Original_nrow,Original_ncol,Important_col_name_1,Important_col_name_2,Important_col_name_3,Important_col_name_4,Col_need_clean_1,Col_need_clean_2,Col_need_clean_3,Col_need_clean_4,Used_name_1,Used_name_2,Used_name_3
+Data1,15762,8,Original.price,Promotional.price,Release.date,Reviews,Original.price,Promotional.price,Release.date,Reviews,Discount,Positive.rate,Release.date
+Data2,200,4,Current_players,peak_players,hours_played,N/A,Current_players,peak_players,hours_played,N/A,Names,Current_players,N/A
+Data3,6417106,5,app_name,review_score,N/A,N/A,app_name,review_score,N/A,N/A,name,score,N/A
