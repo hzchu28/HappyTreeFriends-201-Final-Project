@@ -64,6 +64,11 @@ Data2(Y):[Steam Games](https://www.kaggle.com/datasets/elmartini/steam-games-hou
 4. Current_players, peak_players, hours_played 
 5. Names, Current_players
 
+![PieChart_May8](Data2chart_May8.png)
+![PieChart_May10](Data2chart_May10.png)
+![PieChart_May14](Data2chart_May14.png)
+![PieChart_May19](Data2chart_May19.png)
+
 Data3(M): [Steam Reviews](https://www.kaggle.com/datasets/andrewmvd/steam-reviews) 
 1. Rows = 6417106 
 2. Columns = 5 
