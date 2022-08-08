@@ -8,6 +8,8 @@ date: "2022-08-08"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+![Chart1.DisvsPos](HappyTreeFriends-201-Final-Project/Data1Char1.jpeg)
+
 ## Introduction
 
 The charts are line plots that based on the database "steam_db.csv". 
