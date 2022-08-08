@@ -1,0 +1,31 @@
+---
+title: "File3-ChartScript2.rmd"
+author: "Yizhou Ding"
+date: '2022-08-08'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+The charts are all about the top 10 popular games on Steam, which show the share of the popular games in the game market. The 5 databases are from different days in May 2022. The datasets are grouped by the names of the games, analyzing and comparing the number of current players on different dates. In the 5 pie charts, shows the change in market share of the top fifteen games in a random sampling of days in May.
+
+
+## Question
+
+The questions solved by charts: 
+
+1. Is there any regulation between every day?
+
+2. What leads to the changes of the most popular games?
+
+## Analysis
+
+From these five pie charts can be seen that within May 2022, the top five most popular games in the game market share is quite large. For instance, “Counter-Strike: Global Offensive” accounts for more market share per day than even the next five games in fifth place combined. 
+
+## Conclusion
+
+While there are some differences in the column names and the formats of the dataset, we are able to do data cleaning and work with the data. Through visualizing ana analyzing the dataset, we find that top 10 games ranked by the numebr of current players do not change a lot; however, the percent changes slightly each day. By analyzing the difference between the number of current players by day, we are able to find correlation between the number of current players and factors influencing that, such as discount on the game or update publishment.

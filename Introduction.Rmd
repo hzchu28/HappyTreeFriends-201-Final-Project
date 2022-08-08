@@ -45,38 +45,37 @@ score of each game.
 5. The data used in your chart
 
 Data1(R): [Database of games from the steam platform \|
-Kaggle](https://www.kaggle.com/datasets/karkourmehdi/database-of-games-from-the-steam-platform?select=steam_db.csv)
-1.Rows = 15762 
-2. columns = 8 
-3. Original.price, Promotional.price, Release.date, Reviews 
-4. Original.price, Promotional.price, Release.date, Reviews 
-5. Discount(created from Original.price and Promotional.price), Positive.rate(Extracted from Reviews), Release.date(using group_by)
-
+Kaggle](https://www.kaggle.com/datasets/karkourmehdi/database-of-games-from-the-steam-platform?select=steam_db.csv)  
+1.Rows = 15762   
+2. columns = 8  
+3. Original.price, Promotional.price, Release.date, Reviews  
+4. Original.price, Promotional.price, Release.date, Reviews  
+5. Discount(created from Original.price and Promotional.price), Positive.rate(Extracted from Reviews), Release.date(using group_by) 
+  
 ![Chart1.DisvsPos](Data1Char1.jpeg)
 
 ![Chart2.YearvsDis](Data1Chart2.jpeg)
 
 
-Data2(Y):[Steam Games](https://www.kaggle.com/datasets/elmartini/steam-games-hours-played-and-peak-no-of-players) 
-1. Rows = 200 
-2. Columns = 4 
-3. Current players, peak players, hours played
-4. Current_players, peak_players, hours_played 
-5. Names, Current_players
-
+Data2(Y):[Steam Games](https://www.kaggle.com/datasets/elmartini/steam-games-hours-played-and-peak-no-of-players)   
+1. Rows = 200  
+2. Columns = 4  
+3. Current players, peak players, hours played  
+4. Current_players, peak_players, hours_played   
+5. Names, Current_players  
+   
 ![PieChart_May8](Data2chart_May8.png)
 ![PieChart_May10](Data2chart_May10.png)
 ![PieChart_May14](Data2chart_May14.png)
 ![PieChart_May19](Data2chart_May19.png)
 
-Data3(M): [Steam Reviews](https://www.kaggle.com/datasets/andrewmvd/steam-reviews) 
-1. Rows = 6417106 
-2. Columns = 5 
-3. app_name, review_score 
-4. app_name, review_score 
-5. Name (created by app_name), score (created by review_score)
-
-
+Data3(M): [Steam Reviews](https://www.kaggle.com/datasets/andrewmvd/steam-reviews)   
+1. Rows = 6417106  
+2. Columns = 5   
+3. app_name, review_score   
+4. app_name, review_score   
+5. Name (created by app_name), score (created by review_score)  
+   
 ![Chart1_score_value_1](Data3chart%20for%20score%20value%201.png)
 ![Chart2_score_value_neg_one](Data3chart%20for%20score%20value%20-1.png)
 
