@@ -13,5 +13,7 @@ source("rating data.R")
 source("ui.R")
 source("server.R")
 
+source("steampic.png")
+
 #setup the app
 shinyApp(ui = ui_combo, server = server_combo)
