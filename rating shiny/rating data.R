@@ -6,28 +6,6 @@ library(dplyr)
 library(plotly)
 library(shiny)
 
-reviews_df <- read.csv("dataset.csv")
-
-name <- reviews_df$app_name
-score <- reviews_df$review_score
-
-game_score <- data.frame(name, score)
-new <- filter(game_score, name %in%  c("Counter-Strike", 
-                                       "Dota 2", 
-                                       "Warframe", 
-                                       "Rust",
-                                       "Terraria",
-                                       "Grand Theft Auto V",
-                                       "Killing Floor",
-                                       "Mirror's Edge",
-                                       "ARK: Survival Evolved",
-                                       "Divinity: Original Sin 2",
-                                       "Hitman: Absolution",
-                                       "Call of Duty: Black Ops II",
-                                       "War Thunder",
-                                       "LIMBO",
-                                       "Path of Exile"
-))
 uniq_game <- unique(new$name)
 uniq_game_df <- data.frame(uniq_game)
 
