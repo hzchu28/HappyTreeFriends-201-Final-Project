@@ -30,6 +30,7 @@ ui <- navbarPage(
                     color: #FFFFFF;
                     }"))
       ),
+      HTML('<p><img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/11/Steam-Logo-Big-Picture.jpg"/></p>'), 
       h3(
         "HappyTreeFriends
     -Michelle Zhang
@@ -91,13 +92,13 @@ ui <- navbarPage(
                    "Percentage 1 chart and Percentage -1 chart's bar can be add up and become 1.")
         ),
         mainPanel(
-          h3("Graphs"),
-          plotOutput(outputId = "p1_bar"),
-          plotOutput(outputId = "p_neg_one_bar"),
           h3("Select Result"),
           textOutput(outputId = "game_info"),
           h3("Game Rate Range Table"),
-          tableOutput(outputId = "rate")
+          tableOutput(outputId = "rate"),
+          h3("Graphs"),
+          plotOutput(outputId = "p1_bar"),
+          plotOutput(outputId = "p_neg_one_bar"),
         )
       ),
       h3("Description"),
