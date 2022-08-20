@@ -4,7 +4,6 @@ library("shiny")
 library("stringr")
 library("plotly")
 
-source("steampic.png")
 source("steamdb.r")
 source("rating data.R")
 
@@ -31,13 +30,13 @@ ui <- navbarPage(
                     color: #FFFFFF;
                     }"))
       ),
-      HTML('<p><img src="ShinyCombo/steampic.png"/></p>'), 
       h3(
         "HappyTreeFriends
     -Michelle Zhang
     -Rita Hwang
     -Yizhou Ding"
       ),
+      HTML('<p><img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/11/Steam-Logo-Big-Picture.jpg"/></p>'), 
       h3(
         "Introduction:
        Steam is the most popular video game digital distribution service
