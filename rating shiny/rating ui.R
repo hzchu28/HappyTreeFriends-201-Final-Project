@@ -5,6 +5,8 @@ library(dplyr)
 library(plotly)
 library(shiny)
 
+new <- read.csv("new.csv")
+
 ui <- fluidPage(
   tags$head(
     tags$style(HTML("
