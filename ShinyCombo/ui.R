@@ -27,6 +27,7 @@ ui_combo <- navbarPage(
     -Rita Hwang
     -Yizhou Ding"
       ),
+      HTML('<p><img src="ShinyCombo/steampic.png"/></p>'), 
       h3(
         "Introduction:
        Steam is the most popular video game digital distribution service
